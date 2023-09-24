@@ -1,4 +1,4 @@
-# LaDe: The First Comprehensive Last-mile Delivery Dataset from Industry
+# LaEx: The First Comprehensive Last-mile Express Dataset from Industry
 ## 1 Abstract
 Real-world last-mile delivery datasets are crucial for research in logistics, supply chain management, and spatio-temporal data mining. 
 Despite a plethora of algorithms developed to date, no widely accepted, publicly available last-mile delivery dataset exists to support research in this field. 
