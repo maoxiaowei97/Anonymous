@@ -1,4 +1,7 @@
-# LaEx: The First Comprehensive Last-mile Express Dataset from Industry
+# LaDe: The First Comprehensive Last-mile Delivery Dataset from Industry
+
+Data Link:  [LaEx-P](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous/tree/main/pickup) and [LaEx-D](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous/tree/main/delivery)  
+
 ## 1 Abstract
 Real-world last-mile delivery datasets are crucial for research in logistics, supply chain management, and spatio-temporal data mining. 
 Despite a plethora of algorithms developed to date, no widely accepted, publicly available last-mile delivery dataset exists to support research in this field. 
@@ -12,12 +15,11 @@ We verify LaEx on three tasks by running several classical baseline models per t
 We believe that the large-scale, comprehensive, diverse feature of LaEx can offer unparalleled opportunities to researchers in the supply chain community, data mining community, and beyond.
 
 ### Overview of our work
-![image](./img/work_overview_english.png)
+![image](./data/img/work_overview_english.png)
 
 
 ## 2 Dataset Download
-LaEx is composed of two subdatasets: i) [LaEx-D](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous/tree/main/delivery), which comes from the package delivery scenario.
-ii) [LaEx-P](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous/tree/main/pickup), which comes from the package pickup scenario. To facilitate the utilization of the dataset, each sub-dataset is presented in CSV format.
+LaEx is composed of two subdatasets: i) [LaEx-D](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous/tree/main/delivery), which comes from the package delivery scenario. ii) [LaEx-P](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous/tree/main/pickup), which comes from the package pickup scenario. To facilitate the utilization of the dataset, each sub-dataset is presented in CSV format.
 
 LaEx can be used for research purposes. Before you download the dataset, please read these terms. Then put the data into "/data/raw/".  
 The structure of "/data/raw/" should be like:  
@@ -46,14 +48,14 @@ Each sub-dataset contains 5 csv files, with each representing the data from a sp
 ## 3 Data Description
 Below is the detailed field of each sub-dataset.
 ### 3.1 LaEx-P
-![image](./img/datafeild_LaEx-P.png)
+![image](./data/img/datafeild_LaEx-P.png)
 
 
 ### 3.2 LaEx-D
-![image](./img/datafeild_LaEx-D.png)
+![image](./data/img/datafeild_LaEx-D.png)
 
 ## 4 Code
-Code for tasks on Cainiao-LaEx (Last-mile Delivery dataset).
+Code for tasks on company name blinded-LaEx (Last-mile Delivery dataset).
 
 *route_prediction*: code for route prediction task
 
@@ -63,5 +65,5 @@ Code for tasks on Cainiao-LaEx (Last-mile Delivery dataset).
 
 For the detailed running instructions of each task, plese see the corresponding readme in its directory.
 
-![image](./img/tasks.png)
+![image](./data/img/tasks.png)
 
