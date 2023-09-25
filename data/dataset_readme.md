@@ -1,15 +1,15 @@
 # 1 About Dataset
-**LaEx** is a  publicly available last-mile delivery dataset with  millions of packages from industry. 
+**LaDe** is a  publicly available last-mile delivery dataset with  millions of packages from industry. 
 It has three unique characteristics:  (1) Large-scale. It involves 10,677k packages of 21k couriers over 6 months of real-world operation. 
 (2) Comprehensive information, it offers original package information, such as its location and time requirements, as well as task-event information, which records when and where the courier is while events such as task-accept and task-finish events happen. 
 (3) Diversity: the dataset includes data from various scenarios, such as package pick-up and delivery, and from multiple cities, each with its unique spatio-temporal patterns due to their distinct characteristics such as populations.
-![LaEx.png](./img/LaEx.png)
+![LaDe.png](./img/LaDe.png)
 
 # 2 Download
-LaEx is composed of two subdatasets: i) [LaEx-D](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous/tree/main/delivery), which comes from the package delivery scenario.
-ii) [LaEx-P](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous/tree/main/pickup), which comes from the package pickup scenario. To facilitate the utilization of the dataset, each sub-dataset is presented in CSV format.
+LaDe is composed of two subdatasets: i) [LaDe-D](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous-LaDe/tree/main/delivery), which comes from the package delivery scenario.
+ii) [LaDe-P](https://huggingface.co/datasets/Anonymous-LaEx/Anonymous-LaDe/tree/main/pickup), which comes from the package pickup scenario. To facilitate the utilization of the dataset, each sub-dataset is presented in CSV format.
 
-LaEx can be used for research purposes. Before you download the dataset, please read these terms. And [Code link](https://anonymous.4open.science/r/Anonymous-64B3/). Then put the data into "./data/raw/".  
+LaDe can be used for research purposes. Before you download the dataset, please read these terms. And [Code link](https://anonymous.4open.science/r/Anonymous-64B3/). Then put the data into "./data/raw/".  
 The structure of "./data/raw/" should be like:  
 ```
 * ./data/raw/  
@@ -35,7 +35,7 @@ Each sub-dataset contains 5 csv files, with each representing the data from a sp
 
 # 3 Description
 Below is the detailed field of each sub-dataset.
-## 3.1 LaEx-P
+## 3.1 LaDe-P
 | Data field                 | Description                                  | Unit/format  |
 |----------------------------|----------------------------------------------|--------------|
 | **Package information**    |                                              |              |
@@ -61,7 +61,7 @@ Below is the detailed field of each sub-dataset.
 | ds                         | The date of the package pickup                | Date         |
 
 
-## 3.2 LaEx-D
+## 3.2 LaDe-D
 | Data field            | Description                          | Unit/format   |
 |-----------------------|--------------------------------------|---------------|
 | **Package information**   |                                      |               |
